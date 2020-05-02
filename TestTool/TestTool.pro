@@ -39,7 +39,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 INCLUDEPATH += "/usr/local/include/libusb-1.0"
 LIBS += -L"/usr/local/lib" -lusb-1.0
-INCLUDEPATH += "/home/boris/RS-232"
+INCLUDEPATH += "/home/.../RS-232"
 CONFIG -= app_bundle
 
 
