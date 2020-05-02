@@ -57,7 +57,7 @@ void InterfaceSerie::on_browse1_clicked(){
                                                     tr("*.txt (*.txt)"));
      #else
     QString fileName = QFileDialog::getOpenFileName(this, tr("Open File"),
-                                                    "/home/boris",
+                                                    "/home",
                                                     tr("*.txt (*.txt)"));
      #endif
     ui->lineEdit->setText(fileName);
@@ -90,7 +90,7 @@ QString fileName = QFileDialog::getOpenFileName(this, tr("Open File"),
                                                 tr("*.txt (*.txt)"));
  #else
 QString fileName = QFileDialog::getOpenFileName(this, tr("Open File"),
-                                                "/home/boris",
+                                                "/home",
                                                 tr("*.txt (*.txt)"));
  #endif
 ui->lineEdit_2->setText(fileName);
